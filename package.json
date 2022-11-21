@@ -2,7 +2,7 @@
   "name": "solid-vercel",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build && cp render.prerender-config.json .vercel/output/functions/render.prerender-config.json",
+    "build": "solid-start build",
     "start": "solid-start start"
   },
   "type": "module",
