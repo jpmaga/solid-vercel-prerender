@@ -1,5 +1,10 @@
 import { Title } from "solid-start";
+import { HttpHeader } from "solid-start/server";
 import Counter from "~/components/Counter";
+
+export function Home2() {
+  return `Hello world`
+}
 
 export default function Home() {
   return (
